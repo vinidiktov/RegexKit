@@ -196,7 +196,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		903B9ECD222BDEF000EE0316 /* Regex */ = {
+		903B9ECD222BDEF000EE0316 /* RegexKit */ = {
 			isa = PBXGroup;
 			children = (
 				CE6CDF851BE2C64D00AE6393 /* Foundation+Ranges.swift */,
@@ -207,7 +207,7 @@
 				CE6CDF7A1BE23A1D00AE6393 /* Supporting Files */,
 				CE26D9ED1C34D96A003CFB54 /* ThreadLocal.swift */,
 			);
-			path = Regex;
+			path = RegexKit;
 			sourceTree = "<group>";
 		};
 		CE6CDF561BE239DE00AE6393 = {
@@ -239,7 +239,7 @@
 		CE6CDF621BE239DE00AE6393 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				903B9ECD222BDEF000EE0316 /* Regex */,
+				903B9ECD222BDEF000EE0316 /* RegexKit */,
 			);
 			path = Source;
 			sourceTree = "<group>";

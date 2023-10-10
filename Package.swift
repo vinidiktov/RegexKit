@@ -3,13 +3,13 @@
 import PackageDescription
 
 let package = Package(
-  name: "Regex",
+  name: "RegexKit",
   products: [
-    .library(name: "Regex", targets: ["Regex"]),
+    .library(name: "RegexKit", targets: ["RegexKit"]),
   ],
   targets: [
-    .target(name: "Regex"),
-    .testTarget(name: "RegexTests", dependencies: ["Regex"]),
+    .target(name: "RegexKit"),
+    .testTarget(name: "RegexTests", dependencies: ["RegexKit"]),
   ],
   swiftLanguageVersions: [.v4_2, .version("5")]
 )
